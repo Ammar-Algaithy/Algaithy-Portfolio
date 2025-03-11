@@ -40,7 +40,6 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 
                 <div className="flex justify-between items-center">
                     {/* 🔵 GitHub Link Button */}
-                    {/* 🔵 GitHub Link Button */}
                     {project.id === 4 ? (
                         <a href={project.gitHubUrl} target="_blank" rel="noopener noreferrer"
                             className="px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg 
