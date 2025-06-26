@@ -8,7 +8,7 @@ const projects = [
         description:
             "A full-stack e-commerce application for grocery wholesale orders, built with .NET, React, MobX, and Tailwind CSS.",
         imageUrl: "/Algaithy-Portfolio/NeoWaslApp.png",
-        gitHubUrl: "https://github.com/yourgithub/neowasl",
+        gitHubUrl: "https://neowasl.com",
     },
     {
         id: 2,
