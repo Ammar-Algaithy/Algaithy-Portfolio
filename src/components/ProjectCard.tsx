@@ -47,8 +47,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
                             View PDF
                         </a>
                     ) : project.id === 1 ? (
-                        <p className="px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg 
-                                       transition-all hover:bg-cyan-400 hover:text-gray-900 text-sm">Please contact me to get access</p>
+                        <a href={project.gitHubUrl} target="_blank" rel="noopener noreferrer"
+                            className="px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg 
+                    transition-all hover:bg-cyan-400 hover:text-gray-900 text-sm">
+                            View
+                        </a>
                     ) : (
                         <a href={project.gitHubUrl} target="_blank" rel="noopener noreferrer"
                             className="px-4 py-2 border border-cyan-400 text-cyan-400 rounded-lg 
