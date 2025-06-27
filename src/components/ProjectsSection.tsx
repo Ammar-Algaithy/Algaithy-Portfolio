@@ -6,7 +6,7 @@ const projects = [
         id: 1,
         title: "NeoWasl - Wholesale E-Commerce Platform",
         description:
-            "A full-stack e-commerce application for grocery wholesale orders, built with .NET, React, MobX, and Tailwind CSS.",
+            "NeoWasl is a modern B2B e-commerce platform I founded to simplify wholesale ordering for small business owners. Built with a full-stack architecture (React, .NET, SQLite), NeoWasl integrates AI and automation features such as smart product recommendations, image-based ordering, and supplier price tracking. My goal is to empower local businesses with a faster, smarter, and more reliable wholesale experience.",
         imageUrl: "/Algaithy-Portfolio/NeoWaslApp.png",
         gitHubUrl: "https://neowasl.com",
     },
