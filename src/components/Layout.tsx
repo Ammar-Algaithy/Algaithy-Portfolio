@@ -7,6 +7,7 @@ import ProjectsSection from "./ProjectsSection";
 import ContactSection from "./ContactSection";
 import Footer from "./Footer";
 import BackToTop from "./BackToTop";
+import CertificationsSection from "./CertificationsSection";
 
 const Layout = () => {
     return (
@@ -18,6 +19,7 @@ const Layout = () => {
                 <AboutMeSection />
                 <ExperienceSection />
                 <SkillsSection />
+                <CertificationsSection /> 
                 <ProjectsSection />
                 <ContactSection />
             </main>
